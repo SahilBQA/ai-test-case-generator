@@ -529,7 +529,7 @@ export default function App() {
               LinkedIn
             </a>
             <a 
-              href="https://github.com/SahilBQA" 
+              href="https://github.com/SahilBQA/ai-test-case-generator" 
               target="_blank" 
               rel="noopener noreferrer"
               className="ml-2 text-zinc-500 hover:text-indigo-600 transition-colors flex items-center gap-1.5 text-xs"

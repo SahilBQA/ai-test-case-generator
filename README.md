@@ -41,7 +41,8 @@ I'm a Quality Assurance Professional dedicated to ensuring software excellence a
 I will be adding more features in the future to this application. Stay connected with me on LinkedIn and GitHub!
 
 - **LinkedIn**: [linkedin.com/in/sahilit/](https://www.linkedin.com/in/sahilit/)
-- **GitHub**: [github.com/SahilBQA](https://github.com/SahilBQA)
+- **GitHub Profile**: [github.com/SahilBQA](https://github.com/SahilBQA)
+- **GitHub Repository**: [github.com/SahilBQA/ai-test-case-generator](https://github.com/SahilBQA/ai-test-case-generator)
 
 📄 **License**
 This project is licensed under the Apache-2.0 License
