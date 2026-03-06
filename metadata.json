@@ -1,0 +1,5 @@
+{
+  "name": "AI Test Case Generator",
+  "description": "Generate comprehensive test cases from software requirements using Gemini AI.",
+  "requestFramePermissions": []
+}
