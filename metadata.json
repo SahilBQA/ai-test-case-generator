@@ -1,5 +1,5 @@
 {
   "name": "AI Test Case Generator",
-  "description": "Generate comprehensive test cases from software requirements using Gemini AI.",
+  "description": "A specialized QA tool that transforms software requirements into professional, industry-standard test cases using Gemini AI.",
   "requestFramePermissions": []
 }
