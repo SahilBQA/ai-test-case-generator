@@ -1,17 +1,23 @@
+Developed an AI-powered testing assistant that automatically generates structured software test cases from feature descriptions or requirement documents.
 
-# Run and deploy your AI Studio app
+The application allows users to upload files (Excel, Word, PDF) or manually enter feature descriptions. Generative AI analyzes the input and produces comprehensive test cases covering multiple testing strategies, including positive testing, negative testing, exploratory testing, performance testing, and load testing.
 
-This contains everything you need to run your app locally.
+The generated test cases are presented in a structured QA format and can be copied instantly or exported as PDF, Word, or text files for seamless integration with tools such as Jira, TestRail, or other defect management systems.
 
-View your app in AI Studio: https://ai.studio/apps/b4c304e0-8d7c-4ac8-b3de-3e04b6dfb186?fullscreenApplet=true
+The platform features a responsive interface designed for smooth usability on both desktop and mobile devices. It also includes quick access options to connect with the developer on LinkedIn and explore the source code on GitHub.
 
-## Run Locally
+This project demonstrates the practical application of Generative AI within modern Quality Engineering workflows to accelerate test design, improve test coverage, and reduce manual effort in software testing.
 
-**Prerequisites:**  Node.js
+Tech Stack: React, TypeScript, Tailwind CSS, Gemini API, Google AI Studio, Document Processing (Excel, Word, PDF)
 
+🔗LinkedIn
+https://www.linkedin.com/in/sahilit/
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+🔗 GitHub Profile
+https://github.com/SahilBQA
+
+🔗 GitHub Repository
+https://github.com/SahilBQA/ai-test-case-generator
+
+🔗 Try the App (Live Demo)
+https://ai.studio/apps/b4c304e0-8d7c-4ac8-b3de-3e04b6dfb186?fullscreenApplet=true

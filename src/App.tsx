@@ -225,8 +225,28 @@ export default function App() {
                 placeholder="Paste your software requirements here... (e.g., 'User should be able to login with email and password, with validation for empty fields.')"
                 className="w-full h-64 p-4 rounded-xl border border-zinc-200 focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition-all resize-none bg-white shadow-sm"
               />
-              <div className="absolute bottom-3 right-3 text-xs text-zinc-400">
-                {requirement.length} characters
+              <div className="absolute bottom-3 left-3 flex items-center gap-2">
+                <label className="cursor-pointer p-1.5 text-zinc-400 hover:text-indigo-600 hover:bg-indigo-50 rounded-lg transition-all" title="Upload Requirement File">
+                  <Plus className="w-4 h-4" />
+                  <input 
+                    type="file" 
+                    className="hidden" 
+                    accept=".txt,.doc,.docx,.pdf,.xlsx"
+                    onChange={(e) => {
+                      const file = e.target.files?.[0];
+                      if (file) {
+                        const reader = new FileReader();
+                        reader.onload = (re) => {
+                          setRequirement(re.target?.result as string);
+                        };
+                        reader.readAsText(file);
+                      }
+                    }}
+                  />
+                </label>
+                <span className="text-xs text-zinc-400">
+                  {requirement.length} characters
+                </span>
               </div>
             </div>
             <button
